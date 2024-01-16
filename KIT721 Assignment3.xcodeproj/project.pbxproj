@@ -13,6 +13,24 @@
 		633470A529F7F8D600A08D2D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 633470A329F7F8D600A08D2D /* Main.storyboard */; };
 		633470A729F7F8D700A08D2D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 633470A629F7F8D700A08D2D /* Assets.xcassets */; };
 		633470AA29F7F8D700A08D2D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 633470A829F7F8D700A08D2D /* LaunchScreen.storyboard */; };
+		633C8F9B29FBD145002BDE89 /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 633C8F9A29FBD145002BDE89 /* FeedViewController.swift */; };
+		633C8F9D29FCD000002BDE89 /* SleepViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 633C8F9C29FCD000002BDE89 /* SleepViewController.swift */; };
+		633C8F9F29FCD02E002BDE89 /* NappyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 633C8F9E29FCD02E002BDE89 /* NappyViewController.swift */; };
+		633C8FA429FCF812002BDE89 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 633C8FA329FCF812002BDE89 /* GoogleService-Info.plist */; };
+		633C8FA629FCF94C002BDE89 /* FeedEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 633C8FA529FCF94C002BDE89 /* FeedEvent.swift */; };
+		633C8FAA29FD0E37002BDE89 /* SleepEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 633C8FA929FD0E37002BDE89 /* SleepEvent.swift */; };
+		633C8FAC29FD0E8C002BDE89 /* NappyEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 633C8FAB29FD0E8C002BDE89 /* NappyEvent.swift */; };
+		633C8FB029FD2D53002BDE89 /* HistoryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 633C8FAF29FD2D53002BDE89 /* HistoryTableViewCell.swift */; };
+		633C8FB429FD31B8002BDE89 /* BaseEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 633C8FB329FD31B8002BDE89 /* BaseEvent.swift */; };
+		633C8FB629FD4CAE002BDE89 /* FeedDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 633C8FB529FD4CAE002BDE89 /* FeedDetailViewController.swift */; };
+		633C8FB829FD4CC3002BDE89 /* SleepDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 633C8FB729FD4CC3002BDE89 /* SleepDetailViewController.swift */; };
+		633C8FBA29FD4CD4002BDE89 /* NappyDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 633C8FB929FD4CD4002BDE89 /* NappyDetailViewController.swift */; };
+		633C8FBC29FD5D5B002BDE89 /* HistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 633C8FBB29FD5D5B002BDE89 /* HistoryViewController.swift */; };
+		633CD7CE2A0BC90600846C0B /* AlarmViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 633CD7CD2A0BC90600846C0B /* AlarmViewController.swift */; };
+		637C178029FEBBD500F4C5A7 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 637C177F29FEBBD500F4C5A7 /* HomeViewController.swift */; };
+		637C178229FFC9FD00F4C5A7 /* SummaryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 637C178129FFC9FD00F4C5A7 /* SummaryViewController.swift */; };
+		637C17852A0100B000F4C5A7 /* FirebaseFirestoreSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 637C17842A0100B000F4C5A7 /* FirebaseFirestoreSwift */; };
+		637C17872A0100B000F4C5A7 /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = 637C17862A0100B000F4C5A7 /* FirebaseStorage */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +42,22 @@
 		633470A629F7F8D700A08D2D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		633470A929F7F8D700A08D2D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		633470AB29F7F8D700A08D2D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		633C8F9A29FBD145002BDE89 /* FeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
+		633C8F9C29FCD000002BDE89 /* SleepViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SleepViewController.swift; sourceTree = "<group>"; };
+		633C8F9E29FCD02E002BDE89 /* NappyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NappyViewController.swift; sourceTree = "<group>"; };
+		633C8FA329FCF812002BDE89 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		633C8FA529FCF94C002BDE89 /* FeedEvent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedEvent.swift; sourceTree = "<group>"; };
+		633C8FA929FD0E37002BDE89 /* SleepEvent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SleepEvent.swift; sourceTree = "<group>"; };
+		633C8FAB29FD0E8C002BDE89 /* NappyEvent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NappyEvent.swift; sourceTree = "<group>"; };
+		633C8FAF29FD2D53002BDE89 /* HistoryTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryTableViewCell.swift; sourceTree = "<group>"; };
+		633C8FB329FD31B8002BDE89 /* BaseEvent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseEvent.swift; sourceTree = "<group>"; };
+		633C8FB529FD4CAE002BDE89 /* FeedDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedDetailViewController.swift; sourceTree = "<group>"; };
+		633C8FB729FD4CC3002BDE89 /* SleepDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SleepDetailViewController.swift; sourceTree = "<group>"; };
+		633C8FB929FD4CD4002BDE89 /* NappyDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NappyDetailViewController.swift; sourceTree = "<group>"; };
+		633C8FBB29FD5D5B002BDE89 /* HistoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryViewController.swift; sourceTree = "<group>"; };
+		633CD7CD2A0BC90600846C0B /* AlarmViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlarmViewController.swift; sourceTree = "<group>"; };
+		637C177F29FEBBD500F4C5A7 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		637C178129FFC9FD00F4C5A7 /* SummaryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SummaryViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +65,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				637C17852A0100B000F4C5A7 /* FirebaseFirestoreSwift in Frameworks */,
+				637C17872A0100B000F4C5A7 /* FirebaseStorage in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +76,11 @@
 		6334709129F7F8D600A08D2D = {
 			isa = PBXGroup;
 			children = (
+				633C8FB329FD31B8002BDE89 /* BaseEvent.swift */,
+				633C8FAF29FD2D53002BDE89 /* HistoryTableViewCell.swift */,
+				633C8FA529FCF94C002BDE89 /* FeedEvent.swift */,
+				633C8FA929FD0E37002BDE89 /* SleepEvent.swift */,
+				633C8FAB29FD0E8C002BDE89 /* NappyEvent.swift */,
 				6334709C29F7F8D600A08D2D /* KIT721 Assignment3 */,
 				6334709B29F7F8D600A08D2D /* Products */,
 			);
@@ -56,10 +97,21 @@
 		6334709C29F7F8D600A08D2D /* KIT721 Assignment3 */ = {
 			isa = PBXGroup;
 			children = (
+				633C8FA329FCF812002BDE89 /* GoogleService-Info.plist */,
 				6334709D29F7F8D600A08D2D /* AppDelegate.swift */,
+				633C8F9A29FBD145002BDE89 /* FeedViewController.swift */,
 				6334709F29F7F8D600A08D2D /* SceneDelegate.swift */,
 				633470A129F7F8D600A08D2D /* ViewController.swift */,
 				633470A329F7F8D600A08D2D /* Main.storyboard */,
+				633CD7CD2A0BC90600846C0B /* AlarmViewController.swift */,
+				637C178129FFC9FD00F4C5A7 /* SummaryViewController.swift */,
+				633C8FB529FD4CAE002BDE89 /* FeedDetailViewController.swift */,
+				633C8FB729FD4CC3002BDE89 /* SleepDetailViewController.swift */,
+				633C8FB929FD4CD4002BDE89 /* NappyDetailViewController.swift */,
+				633C8FBB29FD5D5B002BDE89 /* HistoryViewController.swift */,
+				637C177F29FEBBD500F4C5A7 /* HomeViewController.swift */,
+				633C8F9C29FCD000002BDE89 /* SleepViewController.swift */,
+				633C8F9E29FCD02E002BDE89 /* NappyViewController.swift */,
 				633470A629F7F8D700A08D2D /* Assets.xcassets */,
 				633470A829F7F8D700A08D2D /* LaunchScreen.storyboard */,
 				633470AB29F7F8D700A08D2D /* Info.plist */,
@@ -83,6 +135,10 @@
 			dependencies = (
 			);
 			name = "KIT721 Assignment3";
+			packageProductDependencies = (
+				637C17842A0100B000F4C5A7 /* FirebaseFirestoreSwift */,
+				637C17862A0100B000F4C5A7 /* FirebaseStorage */,
+			);
 			productName = "KIT721 Assignment3";
 			productReference = 6334709A29F7F8D600A08D2D /* KIT721 Assignment3.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +167,9 @@
 				Base,
 			);
 			mainGroup = 6334709129F7F8D600A08D2D;
+			packageReferences = (
+				637C17832A0100B000F4C5A7 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
 			productRefGroup = 6334709B29F7F8D600A08D2D /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -126,6 +185,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				633470AA29F7F8D700A08D2D /* LaunchScreen.storyboard in Resources */,
+				633C8FA429FCF812002BDE89 /* GoogleService-Info.plist in Resources */,
 				633470A729F7F8D700A08D2D /* Assets.xcassets in Resources */,
 				633470A529F7F8D600A08D2D /* Main.storyboard in Resources */,
 			);
@@ -139,7 +199,22 @@
 			buildActionMask = 2147483647;
 			files = (
 				633470A229F7F8D600A08D2D /* ViewController.swift in Sources */,
+				633C8FA629FCF94C002BDE89 /* FeedEvent.swift in Sources */,
 				6334709E29F7F8D600A08D2D /* AppDelegate.swift in Sources */,
+				633C8FB429FD31B8002BDE89 /* BaseEvent.swift in Sources */,
+				633C8FBA29FD4CD4002BDE89 /* NappyDetailViewController.swift in Sources */,
+				633C8FB629FD4CAE002BDE89 /* FeedDetailViewController.swift in Sources */,
+				637C178229FFC9FD00F4C5A7 /* SummaryViewController.swift in Sources */,
+				633C8F9D29FCD000002BDE89 /* SleepViewController.swift in Sources */,
+				633C8FBC29FD5D5B002BDE89 /* HistoryViewController.swift in Sources */,
+				633C8FAC29FD0E8C002BDE89 /* NappyEvent.swift in Sources */,
+				633C8F9F29FCD02E002BDE89 /* NappyViewController.swift in Sources */,
+				633C8FB829FD4CC3002BDE89 /* SleepDetailViewController.swift in Sources */,
+				637C178029FEBBD500F4C5A7 /* HomeViewController.swift in Sources */,
+				633C8F9B29FBD145002BDE89 /* FeedViewController.swift in Sources */,
+				633CD7CE2A0BC90600846C0B /* AlarmViewController.swift in Sources */,
+				633C8FB029FD2D53002BDE89 /* HistoryTableViewCell.swift in Sources */,
+				633C8FAA29FD0E37002BDE89 /* SleepEvent.swift in Sources */,
 				633470A029F7F8D600A08D2D /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -299,7 +374,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "au.edu.utas.ywang150.KIT721-Assignment3";
+				PRODUCT_BUNDLE_IDENTIFIER = au.edu.utas.kit721.ywang150;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -326,7 +401,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "au.edu.utas.ywang150.KIT721-Assignment3";
+				PRODUCT_BUNDLE_IDENTIFIER = au.edu.utas.kit721.ywang150;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -356,6 +431,30 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		637C17832A0100B000F4C5A7 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 10.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		637C17842A0100B000F4C5A7 /* FirebaseFirestoreSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 637C17832A0100B000F4C5A7 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestoreSwift;
+		};
+		637C17862A0100B000F4C5A7 /* FirebaseStorage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 637C17832A0100B000F4C5A7 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseStorage;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 6334709229F7F8D600A08D2D /* Project object */;
 }
